@@ -41,38 +41,38 @@ game.buyPlayer(2, 10);
 // "Monstars" team just acquired new player Arachnneka for 195 cash/year!
 
 game.teamValue(1);
-// "Goon Squad" team is paying 525 cash/year for it's players.
+// // "Goon Squad" team is paying 525 cash/year for it's players.
 
 game.teamValue(2);
-// "Monstars" team is paying 430 cash/year for it's players.
+// // "Monstars" team is paying 430 cash/year for it's players.
 
-game.buyPlayer(2, 8);
-// "Monstars" team can't add the same player twice!
+// game.buyPlayer(2, 8);
+// // "Monstars" team can't add the same player twice!
 
-game.buyPlayer(2, 7);
-// "Monstars" team can't add extra players to it's team.\nMaximum players per team is 3.
+// game.buyPlayer(2, 7);
+// // "Monstars" team can't add extra players to it's team.\nMaximum players per team is 3.
 
-game.letsPlay(1, 2);
-// New game everybody!\n"Goon Squad" vs. "Monstars"
+// game.letsPlay(1, 2);
+// // New game everybody!\n"Goon Squad" vs. "Monstars"
 
-game.score(77, 76);
-// "Goon Squad" wins!
+// game.score(77, 76);
+// // "Goon Squad" wins!
 
-game.letsPlay(2, 1);
-// New game everybody!\n"Monstars" vs. "Goon Squad"
+// game.letsPlay(2, 1);
+// // New game everybody!\n"Monstars" vs. "Goon Squad"
 
-game.score(80, 69);
-// "Monstars" wins!
+// game.score(80, 69);
+// // "Monstars" wins!
 
-game.letsPlay(1, 2);
-// New game everybody!\n"Goon Squad" vs. "Monstars"
+// game.letsPlay(1, 2);
+// // New game everybody!\n"Goon Squad" vs. "Monstars"
 
-game.score(84, 82);
-// "Goon Squad" wins!
+// game.score(84, 82);
+// // "Goon Squad" wins!
 
-game.seasonSummary();
-// Season summary for "Bun land" 3x3 league:
-// ####################
-// Total games played: 3
-// Winner team: "Goon Squad"
-// ####################
+// game.seasonSummary();
+// // Season summary for "Bun land" 3x3 league:
+// // ####################
+// // Total games played: 3
+// // Winner team: "Goon Squad"
+// // ####################
